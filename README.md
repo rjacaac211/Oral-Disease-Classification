@@ -2,7 +2,17 @@
 
 This is a **Flask web application** that allows users to upload images of oral conditions and predicts whether the disease is **"Caries"** or **"Gingivitis"** using a deep learning model trained with **MobileNetV2**.
 
----
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Run the Project](#how-to-run-the-project)
+- [Folder Structure](#folder-structure)
+- [Model Performance](#model-performance)
+- [Insights](#insights)
+- [Future Work](#future-work)
+- [Conclusion](#conclusion)
 
 ## Project Overview
 
@@ -11,16 +21,12 @@ Oral diseases such as **Caries** and **Gingivitis** are common health issues. Th
 **Key Metrics**:
 - **Validation Accuracy**: 96.6%
 - **Test Accuracy**: 95.1%
-  
----
 
 ## Features
 
 1. **Image Upload**: Users can upload a dental image through a clean and simple interface.  
 2. **Real-Time Prediction**: The app predicts the disease class (Caries or Gingivitis) and displays the confidence score.
 3. **User-Friendly Design**: Minimalist interface for easy navigation and seamless interaction.
-
----
 
 ## Technologies Used
 
@@ -29,8 +35,6 @@ Oral diseases such as **Caries** and **Gingivitis** are common health issues. Th
 - **TensorFlow/Keras**: Deep learning framework for model training and prediction.
 - **MobileNetV2**: Pre-trained model used for transfer learning.
 - **HTML/CSS/JavaScript**: Frontend technologies for building a clean and responsive interface.
-
----
 
 ## How to Run the Project
 
@@ -57,8 +61,6 @@ http://127.0.0.1:5000
 
 5. **Test the Application**: Upload a dental image and view the predicted class along with the confidence score.
 
----
-
 ## Folder Structure
 
 The project is organized into the following key directories:
@@ -73,8 +75,6 @@ The project is organized into the following key directories:
   - **Oral Disease Classification Project Report.pdf**: Detailed project report.
 - **app.py**: Main Flask application script.
 - **requirements.txt**: Project dependencies.
-
----
 
 ## Model Performance
 
@@ -96,14 +96,10 @@ The confusion matrix on the test data demonstrates the classification performanc
   - True Positives: 186
   - False Negatives: 18
 
----
-
 ## **Insights**
 
 - The model achieved high classification accuracy with minimal false negatives and false positives.
 - It performs well on test data, supporting reliable predictions for early diagnosis.
-
----
 
 ## **Future Work**
 
@@ -112,8 +108,6 @@ The confusion matrix on the test data demonstrates the classification performanc
 - Increase dataset size by including more diverse data covering different lighting, orientations, and demographics to improve generalization.
 2. Enhance Robustness: Add advanced data augmentation techniques such as brightness adjustments, rotations, and noise injection for handling real-world variations.
 3. Experiment with Architectures: Test other lightweight architectures like EfficientNet or DenseNet to enhance performance further while maintaining efficiency.
-
----
 
 ## Conclusion
 
