@@ -104,8 +104,8 @@ The confusion matrix on the test data demonstrates the classification performanc
 ## **Future Work**
 
 1. Expand Dataset:
-- Add a "Healthy" class to detect images with no disease.
-- Increase dataset size by including more diverse data covering different lighting, orientations, and demographics to improve generalization.
+    - Add a "Healthy" class to detect images with no disease.
+    - Increase dataset size by including more diverse data covering different lighting, orientations, and demographics to improve generalization.
 2. Enhance Robustness: Add advanced data augmentation techniques such as brightness adjustments, rotations, and noise injection for handling real-world variations.
 3. Experiment with Architectures: Test other lightweight architectures like EfficientNet or DenseNet to enhance performance further while maintaining efficiency.
 
